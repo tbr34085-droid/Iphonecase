@@ -93,6 +93,7 @@ main{
   height: auto; 
   min-height: 600px; 
 
+  background-attachment: fixed;
   background-color: #ddd;
   background-image: url("intro_solidsuit_section-1_pc.jpg");
   background-color: rgba(255, 255, 255, 0.28);
