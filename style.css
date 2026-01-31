@@ -1,3 +1,4 @@
+
 /* 130px crash */
 * {
   margin: 0;
@@ -12,12 +13,21 @@ body {
   font-size: 18px;
 }
 
+html{
+      scroll-behavior: smooth;
+}
+
 /* HEADER */
 #header {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #297F99;
   color: #E7F6FF;
+  background-color: #212A37;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -88,8 +98,10 @@ main{
   height: auto; 
   min-height: 600px; 
 
+
+  background-attachment: fixed;
   background-color: #ddd;
-  background-image: url("intro_solidsuit_section-1_pc.jpg");
+  background-image: url("Image/intro_solidsuit_section-1_pc.jpg");
   background-color: rgba(255, 255, 255, 0.28);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
@@ -246,7 +258,7 @@ h2{
   border-radius: 8px;
 }
 #image1{
-  background-image: url("Mous2.png");
+  background-image: url("Image/Mous\ Limitless\ 6.png");
 }
 .titrecoque{
  text-align: center;
@@ -302,27 +314,27 @@ h2{
   min-width: 100px;*/
 }
 #image1{
-  background-image: url("Mous2.png");
+  background-image: url("Image/Mous Limitless 6.png");
   width: 80%;
 }
 #image2{
-  background-image: url("OtterBox1.png");
+  background-image: url("Image/OtterBox\ Defender\ Series\ Pro\ \ 1.png");
   width: 80%;
 }
 #image3{
-  background-image: url("APPLE-CASE.png");
+  background-image: url("Image/APPLE\ CASE.png");
   width: 80%;
 }
 #image4{
-  background-image: url("Spigen.png");
+  background-image: url("Image/Spigen\ Ultra\ Hybrid\ Neo\ One\ 2.png");
   width: 80%;
 }
 #image5{
-  background-image: url("UAG.png");
+  background-image: url("Image/UAG\ Essential\ Arm.png");
   width: 80%;
 }
 #image6{
-  background-image: url("smartish2.png");
+  background-image: url("Image/smartish2.png");
   width: 80%;
 }
 
@@ -444,7 +456,7 @@ h2{
   height: 68px;
   border-radius: 50%;
   /*background-color: #4f7cff;*/
-  background-image: url("mous.png");
+  background-image: url("Image/mous.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -486,7 +498,7 @@ h2{
   justify-content: flex-start;
   align-items: center;
   background-color: #ddd;
-  background-image: url("intro_solidsuit_section-4_pc.webp");
+  background-image: url("Image/intro_solidsuit_section-4_pc.webp");
   background-color: #0D0D0DBD;
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -552,7 +564,7 @@ form {
   height: auto;
   padding: 25px;
   background-color: #ddd;
-  background-image: url("intro_solidsuit_section-6.webp");
+  background-image: url("Image/intro_solidsuit_section-6.webp");
   background-color: #0d0d0d5e;
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -750,14 +762,9 @@ li a
   font-size: 20px;
 }
 #Accueil{
-  min-height: 800px;
+  min-height: 90vh;
 }
-/*#button {
- margin-top: 50px;
-}
-.probutton{
-  margin-top: 0;
-}*/
+
 .b2{
   margin-top: 0;
 }
